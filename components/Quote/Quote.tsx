@@ -11,7 +11,7 @@ const Quote = () => {
       <ImQuotesLeft className="absolute -top-4 -left-[-20px] text-3xl text-pink-300" />
 
       <p className=" font-mono">
-        Programming isn't about what you know; it's about what you can figure out.
+        Programming isn't about what you know; it&apos;s about what you can figure out.
       </p>
 
       {/* Bottom-right quote mark */}

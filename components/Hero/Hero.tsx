@@ -16,11 +16,11 @@ const Hero = () => {
             </h1>
 
             <p>
-              Hi, I'm <strong>Adebayo Titilayo Marvellous</strong>, 
+              Hi, I&apos;m <strong>Adebayo Titilayo Marvellous</strong>, 
               a recent Mechanical Engineering graduate with a growing passion for 
               <span className="text-[#C93DE0] font-semibold"> software development</span>. 
               I enjoy creating innovative and user-friendly websites and applications, and 
-              I’m currently building my skills in 
+              I&apos;m currently building my skills in 
               <span className="text-[#C93DE0] font-semibold"> JavaScript, React, and front-end development</span> 
               while exploring backend technologies.
             </p>
@@ -28,7 +28,7 @@ const Hero = () => {
             <p>
               With experience in designing web pages using 
               <span className="text-[#C93DE0] font-semibold"> HTML, CSS, Bootstrap, and JavaScript</span>, 
-              I’m focused on turning ideas into clean and functional code. I’m also eager to expand my knowledge 
+              I&apos;m focused on turning ideas into clean and functional code. I’m also eager to expand my knowledge 
               in APIs, form handling, and responsive design.
             </p>
 
