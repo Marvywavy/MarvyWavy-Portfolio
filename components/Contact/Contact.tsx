@@ -83,9 +83,9 @@ const Contact = () => {
       <div className='flex lg:flex-row md:flex-row flex-col justify-between gap-4 mb-11'>
         <div className='lg:w-[60%] w-full leading-10'>
           <p>
-            I'm always on the lookout for new opportunities to flex my skills and expertise as a Software Engineer. 
-            If you're in need of a go-getter who's not afraid to roll up their sleeves and tackle any challenge, feel free 
-            to shoot me a message using the form below. I'm also available to chat on LinkedIn or Twitter, where I share 
+            I&apos;m always on the lookout for new opportunities to flex my skills and expertise as a Software Engineer. 
+            If you&apos;re in need of a go-getter who&apos;s not afraid to roll up their sleeves and tackle any challenge, feel free 
+            to shoot me a message using the form below. I&apos;m also available to chat on LinkedIn , where I share 
             my latest projects and web development insights. I look forward to hearing from you!
           </p>
         </div>
@@ -114,7 +114,7 @@ const Contact = () => {
       {/* Success Message */}
       {isSent && (
         <div className="bg-green-900 border border-green-400 text-green-300 px-4 py-3 rounded mb-4">
-          ✅ Message sent successfully! I'll get back to you soon.
+          ✅ Message sent successfully! I&apos;ll get back to you soon.
         </div>
       )}
 

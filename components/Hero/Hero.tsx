@@ -28,7 +28,7 @@ const Hero = () => {
             <p>
               With experience in designing web pages using 
               <span className="text-[#C93DE0] font-semibold"> HTML, CSS, Bootstrap, and JavaScript</span>, 
-              I&apos;m focused on turning ideas into clean and functional code. I’m also eager to expand my knowledge 
+              I&apos;m focused on turning ideas into clean and functional code. I&apos;m also eager to expand my knowledge 
               in APIs, form handling, and responsive design.
             </p>
 
