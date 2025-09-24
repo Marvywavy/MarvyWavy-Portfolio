@@ -12,7 +12,7 @@ const Hero = () => {
         <div className='lg:w-[80%] md:w-[90%] sm:w-full font-mono '>
           <div>
             <h1 className=' font-mono text-[20px] lg:text-[35px] md:text-[35px] font-extrabold text-gray-400  '>
-                Hey there, I'm Titilayo Adebayo — a <span className='text-[#EB08D3] '>Frontend Developer</span>
+                Hey there, I&apos;m Titilayo Adebayo — a <span className='text-[#EB08D3] '>Frontend Developer</span>
             </h1>
 
             <p>
