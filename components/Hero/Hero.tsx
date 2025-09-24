@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section id='about' className='mt-[50px] relative ' >
       <BubblesBackground />
-      <div className='flex items-center justify-between lg:flex-row  flex-col'>
+      <div className='flex items-center justify-between lg:flex-row  flex-col-reverse  '>
         <div className='lg:w-[80%] md:w-[90%] sm:w-full font-mono '>
           <div>
             <h1 className=' font-mono text-[20px] lg:text-[35px] md:text-[35px] font-extrabold text-gray-400  '>
@@ -73,7 +73,7 @@ const Hero = () => {
           </div>
         </div>
 
-          <div className='w-[50%] lg:w-[80%] flex justify-end '>
+          <div className='w-[100%] md:w-[50%] lg:w-[80%] flex justify-end '>
               <Image src={pic} alt="Titilayo" className='lg:w-[90%] bg-[#2B2F36] w-full  ' />
           </div>
       </div>
