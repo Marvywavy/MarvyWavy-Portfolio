@@ -15,23 +15,23 @@ const HomePage = () => {
 
         <NavBar />
 
-        <AnimatedSection delay={1} threshold={0.1}>
+        <AnimatedSection delay={0.5} threshold={0.1}>
         <Hero />
       </AnimatedSection>
         
-        <AnimatedSection delay={1} threshold={0.1}>
+        <AnimatedSection delay={0.5} threshold={0.1}>
         <Skills />
       </AnimatedSection>
 
-      <AnimatedSection delay={1} threshold={0.1}>
+      <AnimatedSection delay={0.5} threshold={0.1}>
         <Experience />
       </AnimatedSection>
 
-      <AnimatedSection delay={1} threshold={0.1}>
+      <AnimatedSection delay={0.5} threshold={0.1}>
         <Projects />
       </AnimatedSection>
 
-      <AnimatedSection delay={1} threshold={0.1}>
+      <AnimatedSection delay={0.5} threshold={0.1}>
         <Contact />
       </AnimatedSection>
         

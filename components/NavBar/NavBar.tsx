@@ -21,21 +21,29 @@ const NavBar = () => {
   ];
 
   return (
-    <section className='flex justify-between items-center w-full relative'>
+    <section className='flex justify-between items-center w-full relative z-50 '>
       {/* Logo */}
-      <a href="#" className='font-mono text-xl font-[900]'>layo</a>
+      <div className='flex lg:hidden'>
+        <a href="#" className='font-mono text-xl font-[900]'>layo</a>
+      </div>
       
       {/* Desktop Navigation - visible only on LG screens and above */}
-      <div className="hidden lg:flex items-center justify-between gap-10 text-sm">
-        {navLinks.map((link) => (
-          <a 
-            key={link.href}
-            href={link.href}
-            className='hover:text-gray-300 transition-colors duration-200'
-          >
-            {link.label}
-          </a>
-        ))}
+      <div className="hidden lg:flex items-center justify-between text-sm fixed pr-40 w-full">
+        <div>
+          <a href="#" className='font-mono text-xl font-[900]'>layo</a>
+        </div>
+        <div className='flex gap-10'>
+          {navLinks.map((link) => (
+            <a 
+              key={link.href}
+              href={link.href}
+              className='hover:text-gray-300 transition-colors duration-200'
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+        
       </div>
 
       {/* Hamburger/Close Button - visible on MD and SM screens, hidden on LG screens */}

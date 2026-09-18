@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image";
-import pic from "@/public/image/pic.png";
 import Link from "next/link";
 import BubblesBackground from '../BubblesBackground/BubblesBackground';
 import Quote from '@/components/Quote/Quote'
@@ -8,7 +7,7 @@ const Hero = () => {
   return (
     <section id='about' className='mt-[50px] relative ' >
       <BubblesBackground />
-      <div className='flex items-center justify-between lg:flex-row  flex-col-reverse  '>
+      <div className='flex items-center gap-14 lg:flex-row  flex-col-reverse  '>
         <div className='lg:w-[80%] md:w-[90%] sm:w-full font-mono '>
           <div>
             <h1 className=' font-mono text-[20px] lg:text-[35px] md:text-[35px] font-extrabold text-gray-400  '>
@@ -41,12 +40,12 @@ const Hero = () => {
 
           <div className=' lg:w-[80%] w-full flex justify-between mt-8 px-4'>
             <div className="border px-8 py-3 relative overflow-hidden group animate-bounceSmooth rounded-3xl border-[#9b1f51] ">
-              <Link
-                href="/contact"
+              <a
+                href="#contact"
                 className="relative z-10  transition-colors duration-300 group-hover:text-white animate-bounce"
               >
                 Contact me
-              </Link>
+              </a>
 
               {/* Gradient background, hidden until hover */}
               <div
@@ -56,12 +55,14 @@ const Hero = () => {
             </div>
 
             <div className="border px-8 py-3 relative overflow-hidden group rounded-3xl border-[#9b1f51] animate-bounceSmooth ">
-              <Link
-                href="/contact"
+              <a
+                href="/Adebayo_Titilayo_Marvellous_CV_Graduate_Trainee_Trans_Amadi.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative z-10 animate-bounce transition-colors duration-300 group-hover:text-white"
               >
                 My Resume
-              </Link>
+              </a>
 
               {/* Gradient background, hidden until hover */}
               <div
@@ -73,8 +74,14 @@ const Hero = () => {
           </div>
         </div>
 
-          <div className='w-[100%] md:w-[50%] lg:w-[80%] flex justify-end '>
-              <Image src={pic} alt="Titilayo" className='lg:w-[90%] bg-[#2B2F36] w-full  ' />
+          <div className='w-[100%] md:w-[50%] lg:w-[80%] flex items-center justify-center '>
+            <Image
+              src="/image/pic.jpeg"
+              alt="Titilayo"
+              width={500}
+              height={500}
+              className="lg:w-[70%] bg-[#2B2F36] w-full rounded-full "
+            />          
           </div>
       </div>
       <Quote />
