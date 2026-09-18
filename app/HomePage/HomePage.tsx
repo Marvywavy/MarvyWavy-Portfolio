@@ -27,7 +27,7 @@ const HomePage = () => {
         <Experience />
       </AnimatedSection>
 
-      <AnimatedSection delay={0.5} threshold={0.1}>
+      <AnimatedSection className="hidden md:block" delay={0.5} threshold={0.1}>
         <Projects />
       </AnimatedSection>
 
